@@ -1,0 +1,29 @@
+{
+  "name": "seedance",
+  "version": "1.0.0",
+  "description": "Make images, videos, music and edits with Seedance from Codex.",
+  "author": {
+    "name": "Seedance",
+    "url": "https://www.seedance.tv"
+  },
+  "homepage": "https://www.seedance.tv/plugin",
+  "repository": "https://github.com/seedance-tv/marketplace",
+  "interface": {
+    "displayName": "Seedance",
+    "shortDescription": "Images, videos and audio on your Seedance canvas",
+    "longDescription": "Create with Seedance without leaving Codex. Describe what you want, or start from a script or a reference image, and Codex builds it on your Seedance canvas: text-to-image and image editing, text-to-video and image-to-video across Seedance, Veo 3, Kling and other models, music, voiceover and sound, and multi-shot edits that cut your clips into one film. Codex tells you what each run costs in credits before it starts, waits for the results and shows them in the chat; the canvas stays open for you to keep editing on the website. Connect your Seedance account to begin.",
+    "developerName": "Seedance",
+    "category": "Creativity",
+    "capabilities": ["Read", "Write", "Interactive"],
+    "brandColor": "#0D5CD3",
+    "websiteURL": "https://www.seedance.tv",
+    "logo": "./assets/seedance-icon.png",
+    "composerIcon": "./assets/seedance-icon.png",
+    "defaultPrompt": [
+      "Show my Seedance projects",
+      "Make an 8-second product video from this photo with Seedance",
+      "Write a 30-second story and turn it into a multi-shot video on my Seedance canvas"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
