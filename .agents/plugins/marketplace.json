@@ -1,14 +1,14 @@
 {
-  "name": "seedance",
+  "name": "seedancetv",
   "interface": {
     "displayName": "Seedance"
   },
   "plugins": [
     {
-      "name": "seedance",
+      "name": "seedancetv",
       "source": {
         "source": "local",
-        "path": "./plugins/seedance"
+        "path": "./plugins/seedancetv"
       },
       "policy": {
         "installation": "AVAILABLE",

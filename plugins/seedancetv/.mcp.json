@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "seedance": {
+    "seedancetv": {
       "type": "http",
       "url": "https://www.seedance.tv/mcp",
       "tool_timeout_sec": 300
